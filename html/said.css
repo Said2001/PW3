@@ -1,0 +1,99 @@
+                        * {
+                            box-sizing: border-box;
+                        }
+                        
+                        header {
+                            height: 50px;
+                            background-color: blue;
+                        }
+                        
+                        nav {
+                            background-color: red;
+                            margin: 10px 0px;
+                            height: 50px;
+                        }
+                        
+                        #main {
+                            width: 800px;
+                            background-color: green;
+                            height: min-content;
+                        }
+                        
+                        section {
+                            border: solid violet;
+                            background-color: yellow;
+                            height: max-content;
+                        }
+                        
+                        .para1 {
+                            width: 500px;
+                            float: left;
+                        }
+                        
+                        .para2 {
+                            width: 300px;
+                            float: left;
+                        }
+                        
+                        * {
+                            box-sizing: border-box;
+                        }
+                        
+                        #main {
+                            width: 800px;
+                        }
+                        
+                        #main:after {
+                            content: '';
+                            display: block;
+                            clear: both;
+                        }
+                        
+                        section {
+                            border: 1px solid blue;
+                        }
+                        
+                        .para1 {
+                            width: 500px;
+                            float: left;
+                        }
+                        
+                        .para2 {
+                            width: 300px;
+                            float: left;
+                        }
+                        
+                        * * {
+                            box-sizing: border-box;
+                        }
+                        
+                        #main {
+                            width: 800px;
+                        }
+                        
+                        section {
+                            border: solid violet;
+                        }
+                        
+                        .para1 {
+                            width: 500px;
+                            display: inline-block;
+                        }
+                        
+                        .para2 {
+                            width: 300px;
+                            display: inline-block;
+                        }
+                        
+                        footer {
+                            width: 100%;
+                            background: #ccc;
+                        }
+                        
+                        footer h1 {
+                            text-align: center;
+                        }
+                        
+                        body {
+                            background: red;
+                        }
